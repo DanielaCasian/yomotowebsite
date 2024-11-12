@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar
+{
+/*permite alinierea și distribuirea elementelor într-un mod flexibil*/
+display: flex;
+
+/*Această proprietate aliniaza elementele din navbar astfel încât primul
+ și ultimul element să fie poziționate la extremitățile containerului, iar
+  celelalte elemente să fie distribuite uniform între ele.*/
+
+  justify-content: space-between;
+  align-items: flex-end;/* elementele din navabr sunt la urma*/
+  padding:20px 50px;/*
+}
