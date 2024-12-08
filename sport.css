@@ -1,0 +1,243 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+  }
+
+  nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left:5%;
+    padding-right: 35%;
+  }
+  
+
+  .logo{
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+  }
+  
+  span{
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+  }
+  
+  nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    padding:10px 20px;
+  }
+
+  nav ul li a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  
+  .navbar a:hover,
+  .navbar .active{
+    color:var(--main-color);
+    border-bottom: 3px solid var(--main-colr);    
+    
+
+  }
+
+  .container{
+    background-color: rgb(17, 47, 182);
+    min-height:70px ;
+  }
+  
+  h1{
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+  .card-container{
+  border: 1px solid rgba(0, 0, 0, 0);
+  min-height: 2000px;
+  margin-top:1%;
+  margin-left: 4%;
+  margin-right: 4%;
+  position: relative;
+}
+
+.container_cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap:22px;
+  text-align: left;
+  vertical-align: top;
+  
+}
+
+.text-info{
+  display: block;
+  text-align: left;
+  vertical-align: top;
+  border:1px solid rgba(0, 0, 0, 0);
+  height: 460px;
+  width: 400px;
+  
+}
+
+
+.card_1{
+  background: #1d48a5;
+  border:1px solid rgba(0, 0, 0, 0);
+  height: 350px;
+  width: 400px;
+  background: url('yamahaR1.jpg'); 
+  background-size: cover; 
+  background-position: center;
+  
+}
+/*.container_cards .card_1:hover{
+  transform: scale(1.1);
+  transition: transform 0.5s ease-in-out;
+}*/
+  
+
+.product-name{
+  font-weight: bold;
+  font-family: arial;
+  font-size: 20px;
+  margin-left: 4px;
+  
+}
+
+.price{
+  color:#1631ba;
+  font-family: arial;
+  text-align: center;
+  margin-top: 18px;
+}
+button{
+
+  border: 2px solid black;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  display: flex;
+  height: 35px;
+  width: 350px;
+  border-radius: 15px;
+  background-position: center;
+  justify-content: center;
+  margin-left: 200px;
+  margin-top: 33px;
+  box-shadow: 10px 10px 10px #babecc,
+  -10px -10px 10px #ffff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color:white;
+  padding: 5px ;
+  cursor: pointer;
+  background: linear-gradient(0deg, rgba(6, 14, 131, 1) 0%, rgba(12, 25, 180, 1) 100%);
+  
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(0deg, rgba(0, 3, 255, 1) 0%, rgb(2, 73, 251) 100%);
+
+
+}
+
+.container-watch{
+  display: flex;
+  background-color: blue;
+  height: 35px;
+  width: 350px;
+  border-radius: 15px;
+  background-position: center;
+  justify-content: center;
+  margin-left: 30px;
+  margin-top: 13px;
+  border: 2px solid black;
+  box-shadow: 10px 10px 10px #babecc,
+  -10px -10px 10px #ffff;
+}
+
+.watch-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color:white;
+}
+
+.product-image{
+  max-width: 100%;
+}
+
+.card_2{
+  background: #a5361d;
+  border:1px solid rgba(0, 0, 0, 0);
+  height: 350px;
+  width: 400px;
+  background: url('yamahaR1 Race.jpg'); 
+  background-size: cover; 
+  background-position: center;
+}
+
+  .card_3{
+    background: #6ca51d;
+    border:1px solid rgba(0, 0, 0, 0);
+    height: 350px;
+    width: 400px;
+    background: url('yamahaR1Gytr.jpg'); 
+    background-size: cover; 
+    background-position: center;
+   
+   
+    
+  }
+  .card_4{
+    background: #6ca51d;
+    border:1px solid rgba(0, 0, 0, 0);
+    height: 350px;
+    width: 400px;
+    background: url('yamahaR1Gytr.jpg'); 
+    background-size: cover; 
+    background-position: center;
+   
+    
+  }
+
+  .card_5{
+    background: #6ca51d;
+    border:1px solid rgba(0, 0, 0, 0);
+    height: 350px;
+    width: 400px;
+    background: url('yamahaR1Gytr.jpg'); 
+    background-size: cover; 
+    background-position: center;
+   
+  }
+ .btn{
+  position:absolute;
+  margin-left:370px;
+  background: transparent;
+  border:none;
+  margin:87px;
+  outline: none;
+  color:grey:
+  
+ }
+    
+    
+  
+
+
+  
+
+
+
+
+
+
