@@ -112,23 +112,21 @@ nav ul li a{
 .select-container{
   display: flex; 
   align-items: center; 
-
 }
+
 .dropdown{
   height:30px ;
   width: 135px;
   border-radius: 7px;
   margin-left:3%;
-  font-family: arial;
-  
+  font-family: arial;  
 }
+
 .search{
   order:1;
   height:35px ;
   width: 300px;
-  margin-left:3%;
-  
-  
+  margin-left:3%;  
 }
 
 
