@@ -135,13 +135,13 @@ button{
   color:white;
   padding: 5px ;
   cursor: pointer;
-  background: linear-gradient(0deg, rgb(11, 22, 179) 0%, rgb(19, 36, 222) 100%);
+  background: linear-gradient(0deg, rgb(40, 39, 39) 0%, rgb(21, 20, 20) 100%);
   
   transition: background 0.3s;
 }
 
 button:hover {
-  background: linear-gradient(0deg, rgba(0, 3, 255, 1) 0%, rgb(2, 73, 251) 100%);
+  background: linear-gradient(0deg, rgba(8, 7, 7) 0%, rgb(88, 85, 85) 100%);
 
 
 }
