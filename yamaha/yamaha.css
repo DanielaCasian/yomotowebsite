@@ -40,10 +40,7 @@
   
   .navbar a:hover,
   .navbar .active{
-    color:var(--main-color);
-    border-bottom: 3px solid var(--main-colr);    
-    
-
+    border-bottom: 3px solid white;    
   }
 
   .container{
@@ -94,10 +91,7 @@
   background-position: center;
   
 }
-/*.container_cards .card_1:hover{
-  transform: scale(1.1);
-  transition: transform 0.5s ease-in-out;
-}*/
+
   
 
 .product-name{
@@ -136,7 +130,6 @@ button{
   padding: 5px ;
   cursor: pointer;
   background: linear-gradient(0deg, rgb(40, 39, 39) 0%, rgb(21, 20, 20) 100%);
-  
   transition: background 0.3s;
 }
 
