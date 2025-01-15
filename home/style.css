@@ -159,7 +159,7 @@ nav ul li a{
   margin-top:24%;
   margin-left:20%;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.319);
+  background-color: rgba(63, 60, 60, 0.342);
   border-radius: 40px;
 
 
@@ -169,7 +169,7 @@ nav ul li a{
   align-items: center; 
 }
 
-.dropdown{
+select#dropdown{
   height:30px ;
   width: 135px;
   border-radius: 7px;
@@ -184,7 +184,98 @@ nav ul li a{
   margin-left:3%;  
 }
 
+.menu{
+  margin:0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  gap:10px
+}
+.menu-item{
+position: relative;  
 
+}
+
+  .menu-button{
+    position: relative;
+    background-color: transparent;
+    border: none;
+    border-radius: none;
+    padding: 15px;
+    padding-right: 30px;
+    color:white;
+    transition: background-color .2s ;
+    cursor: pointer;
+
+  } 
+  
+  .menu-button:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .menu-button:active{
+    background-color: rgba(0, 0, 0, .2);
+  }
+  .menu-button:after{
+    content: "";
+    position: absolute;
+    display: block;
+    border: solid rgb(255, 255, 255);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    right: 15px;
+    top:18px;
+    transition: transform .2s;
+  }
+
+  .dropdown-menu{
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    background-color: rgb(0, 0, 0, .7);
+    position:absolute;
+    transform: translateY(-100px);
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility .2s, opacity .2s, transform .2s;
+
+  }
+
+  .menu-item.menu-item-open .menu-button:after{
+    transform: rotate(-135deg);
+    top:20px;
+    
+  }
+
+  .menu-item.menu-item-open .dropdown-menu{
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+
+  }
+  
+  .dropdown-menu-link{
+    display: block;
+    padding: 15px 15px;
+    color:white;
+    transition:bacground-color .2s;
+
+  }
+
+  .dropdown-menu-link:hover{
+    background-color: rgba(255,255,255, .2);
+  }
+
+  .dropdown-menu-link:active {
+    background-color: rgba(0, 0, 0, .2);
+   
+  }
+
+ 
+  
 .container-home{
   border: 1px solid rgb(0, 0, 0);
   min-height: 1000px;
